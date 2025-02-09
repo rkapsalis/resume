@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Orbit - Bootstrap 5 Resume/CV Template for Developers</title>
+    <title>Romanos Kapsalis | Resume</title>
     
     <!-- Meta -->
     <meta charset="utf-8">
@@ -17,7 +17,8 @@
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-2.css">
+    <link id="custom-style" rel="stylesheet" href="assets/css/custom.css">
 </head> 
 
 <body>
@@ -31,12 +32,13 @@
             
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fa-solid fa-envelope"></i><a href="mailto: yourname@email.com">romanos at kapsalis gmail dot com</a></li>
+                    <li class="email"><i class="fa-solid fa-envelope"></i><a href="mailto: romanos.kapsalis@gmail.com">romanos at kapsalis gmail dot com</a></li>
                     <!-- <li class="phone"><i class="fa-solid fa-phone"></i><a href="tel:0123 456 789">0123 456 789</a></li> -->
-                    <li class="website"><i class="fa-solid fa-globe"></i><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">portfoliosite.com</a></li>
-                    <li class="linkedin"><i class="fa-brands fa-linkedin-in"></i><a href="#" target="_blank">linkedin.com/in/romanos-kapsalis</a></li>
-                    <li class="github"><i class="fa-brands fa-github"></i><a href="#" target="_blank">github.com/rkapsalis</a></li>
-                    <li class="twitter"><i class="fa-brands fa-x-twitter"></i><a href="https://twitter.com/3rdwave_themes" target="_blank">@rkapsalis</a></li>
+                    <li class="website"><i class="fa-solid fa-globe"></i><a href="https://romanos-kapsalis.netlify.app/" target="_blank">https://romanos-kapsalis.netlify.app/</a></li>
+                    <li class="linkedin"><i class="fa-brands fa-linkedin-in"></i><a href="https://linkedin.com/in/romanos-kapsalis" target="_blank">linkedin.com/in/romanos-kapsalis</a></li>
+                    <li class="github"><i class="fa-brands fa-github"></i><a href="https://github.com/rkapsalis" target="_blank">github.com/rkapsalis</a></li>
+                    <li class="github"><i class="fa-brands fa-gitlab"></i><a href="https://gitlab.com/rkapsalis" target="_blank">gitlab.com/rkapsalis</a></li>
+                    <li class="twitter"><i class="fa-brands fa-x-twitter"></i><a href="https://twitter.com/rkapsalis" target="_blank">@rkapsalis</a></li>
                 </ul>
             </div><!--//contact-container-->
             <div class="education-container container-block">
@@ -45,6 +47,7 @@
                     <h4 class="degree">Integrated MSc in Computer Engineering & Informatics</h4>
                     <h5 class="meta">University of Patras</h5>
 	                    <div class="time">2016 - 2022</div>
+                        <div>Diploma Thesis: ”Research and Development of a system for Bias Identification in Recommender Systems”</div>
                 </div><!--//item-->
             </div><!--//education-container-->
             
@@ -60,16 +63,24 @@
             <div class="interests-container container-block">
                 <h2 class="container-block-title">Interests</h2>
                 <ul class="list-unstyled interests-list">
-                    <li>Phtography</li>
-                    <li>Football</li>
-                    <li>Reading</li>
+                    <li><i class="fa-solid fa-camera"></i>  Photography</li>
+                    <li><i class="fa-solid fa-futbol"></i>  Football</li>
+                    <li><i class="fa-solid fa-book-open"></i>  Reading</li>
+                    <li><i class="fa-solid fa-globe"></i>  Traveling</li>
                 </ul>
             </div><!--//interests-->
             
         </div><!--//sidebar-wrapper-->
         
         <div class="main-wrapper">
-            
+            <!-- <button id="themeToggle" class="btn btn-primary">Enable Dark Mode</button> -->
+            <label class="theme-switch">
+                <span id="themeLabel">Light Mode</span>
+                <label class="switch">
+                    <input type="checkbox" id="themeToggle">
+                    <span class="slider"></span>
+                </label>
+            </label>
             <section class="section summary-section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-user"></i></span>Career Profile</h2>
                 <div class="summary">
@@ -80,12 +91,12 @@
             </section><!--//section-->
             
             <section class="section experiences-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-briefcase"></i></span>Experiences</h2>
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-briefcase"></i></span>Professional Experience</h2>
                 
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Junior AI Engineer,</h3>
+                            <h3 class="job-title">AI Engineer</h3>
                             <div class="time">July 2023 - Present</div>
                         </div><!--//upper-row-->
                         <div class="company">Code4Thought, Patras-Greece</div>
@@ -105,7 +116,7 @@
                             <li> Accelerated platform readiness for MVP and alpha releases by designing and implementing core
                             AI evaluation features. </li>
                             <li>Delivered live technical demos and presentations to 10+ enterprise clients, contributing to a 80%
-                            customer retention rate </li>
+                            customer retention rate. </li>
                             <li> Automated 60% of the platform’s core evaluation workflows, cutting manual assessment efforts
                             in half and improving efficiency. </li></ul></p>
                     </div><!--//details-->
@@ -114,7 +125,7 @@
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Junior AI Consultant,</h3>
+                            <h3 class="job-title">Junior AI Consultant</h3>
                             <div class="time">January 2022 - June 2023</div>
                         </div><!--//upper-row-->
                         <div class="company">Code4Thought, Patras-Greece</div>
@@ -122,7 +133,7 @@
                     <div class="details">
                         <p><i class="fa-solid fa-chevron-right"></i> Responsibilities </br>
                             <ul>
-                            <li> Evaluatedtheperformance,fairness,securityandexplainabilityofAIsystems,workingcloselywith
+                            <li> Evaluated the performance, fairness, security and explainability of AI systems, working closely with
                             engineering teams, providing actionable insights for AI risk assessment and mitigation.</li>
                             <li> Conducted AI system audits for 10+ enterprise AI models, ensuring compliance with ISO standards
                             and AI regulations.</li>
@@ -135,7 +146,7 @@
                             scalability, and potential risks in AI models and data infrastructure, contributing to successful in-
                             vestment decisions.</li>
                             <li> Conducted comprehensive analysis of 3 AI systems for a leading bank, identifying critical issues
-                            related to model performance, bias/fairness, and compliance with regulatory standards</li>
+                            related to model performance, bias/fairness, and compliance with regulatory standards.</li>
                             <li> Developed an AI risk assessment tool, reducing AI compliance validation time by 50%. </li></ul></p>  
                         
                     </div><!--//details-->
@@ -286,7 +297,28 @@
             <small class="copyright">Designed with <i class="fa-solid fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
         </div><!--//container-->
     </footer><!--//footer-->
-        
+    <script>
+        const themeToggle = document.getElementById("themeToggle");
+        const themeStylesheet = document.getElementById("theme-style");
+
+        // Check for saved theme in localStorage
+        if (localStorage.getItem("theme") === "dark") {
+            themeStylesheet.setAttribute("href", "assets/css/orbit-7.css");
+            themeToggle.textContent = "Enable Light Mode";
+        }
+
+        themeToggle.addEventListener("click", function () {
+            if (themeStylesheet.getAttribute("href") === "assets/css/orbit-2.css") {
+                themeStylesheet.setAttribute("href", "assets/css/orbit-7.css");
+                localStorage.setItem("theme", "dark");
+                themeToggle.textContent = "Enable Light Mode";
+            } else {
+                themeStylesheet.setAttribute("href", "assets/css/orbit-2.css");
+                localStorage.setItem("theme", "light");
+                themeToggle.textContent = "Enable Dark Mode";
+            }
+        });
+    </script>
 </body>
 </html> 
 

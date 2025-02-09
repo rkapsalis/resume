@@ -295,3 +295,13 @@ p {
     margin-bottom: 0;
   }
 }
+.profile {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: gainsboro;
+  background-image: url(../images/profile.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
