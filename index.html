@@ -7,7 +7,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="description" content="Explore my online resume showcasing my experience in AI engineering, 
+    machine learning, and AI quality testing. Learn about my skills, projects, and professional journey in building innovative AI solutions.">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
     <link rel="shortcut icon" href="favicon.ico">  
     <!-- Google Font -->
@@ -303,11 +304,13 @@
         // Check for saved theme in localStorage
         if (localStorage.getItem("theme") === "dark") {
             themeStylesheet.setAttribute("href", "assets/css/orbit-7.css");
+            themeToggle.checked = true;
             themeToggle.textContent = "Enable Light Mode";
         }
 
-        themeToggle.addEventListener("click", function () {
-            if (themeStylesheet.getAttribute("href") === "assets/css/orbit-2.css") {
+        themeToggle.addEventListener("change", function () {
+            if (themeToggle.checked){
+            // if (themeStylesheet.getAttribute("href") === "assets/css/orbit-2.css") {
                 themeStylesheet.setAttribute("href", "assets/css/orbit-7.css");
                 localStorage.setItem("theme", "dark");
                 themeToggle.textContent = "Enable Light Mode";
