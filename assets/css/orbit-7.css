@@ -286,6 +286,9 @@ body {
     .main-wrapper .upper-row {
       margin-bottom: 0;
     }
+    .theme-switch-navbar{
+      background: #D84040 !important;
+  }
   }
   @media (min-width: 992px) {
     .skillset .level-title {
@@ -304,4 +307,9 @@ body {
     background-position: center;
     background-size: cover;
     border-radius: 50%;
+  }
+
+  b, strong {
+    font-weight: bolder;
+    color: #D84040;
   }
